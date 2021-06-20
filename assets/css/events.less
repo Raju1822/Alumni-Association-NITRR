@@ -1,0 +1,64 @@
+@import (less) "default-style.less";
+@import (less) "header.less";
+
+
+.events-page-wrapper{
+    h2{
+        font-size: 2em;
+        font-weight: normal;
+    }
+    a{
+        color: #333;
+    }
+}
+
+.event{
+    overflow: auto;
+    margin:20px auto;
+    border: 1px solid #e4e4e4;
+    background-color: #fff; 
+
+    .date-block {
+        padding: 10px 0px;
+        background-color: #422673;
+        color: #fff;
+        height: 100%;        
+        p{
+            margin: 5px 0;
+            &.date{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+        }
+    }
+    
+    .details{
+        text-align: left;
+        float: left;
+        h3{
+            margin:5px 0;
+        }
+        .description{
+            margin:5px 0;
+        }
+        .venue{
+             margin:5px 0;
+            span{
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+.past-events-wrapper{
+    .event{
+        .date-block{
+            background-color: #8B8B8B;
+        }
+    }
+}
+@import (less) "sidebar.less";
+
+@import (less) "footer.less";

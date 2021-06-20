@@ -1,0 +1,51 @@
+@import (less) "default-style.less";
+@import (less) "header.less";
+
+.search-page-wrapper{
+	margin: 40px auto;
+	height: auto;
+	min-height: 700px;
+	overflow: auto;
+
+	
+	form{
+		height: auto;
+	    overflow: auto;
+	}
+	.search-box{
+		float: left;
+		width:88%;
+
+		@media screen and (max-width:768px) {
+			width:85%;
+		}
+	}
+
+	.search-button{
+		float: left;
+		margin-left: 2%;
+	}
+	.errors{
+		float: left;
+		color: #FF7D7D;
+	}
+
+	h3{
+		text-align: center;
+		font-size: 1.5em;
+	}
+	.table{
+		margin: 0 auto;
+		th{
+			text-align: left;
+			font-weight: 900;
+			padding: 5px 8px;
+		}
+		td{
+			padding: 3px 8px;
+			text-align: left;
+		}
+	}
+}
+
+@import (less) "footer.less";

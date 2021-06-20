@@ -1,0 +1,199 @@
+@import (less) "default-style.less";
+@import (less) "header.less";
+
+.userprofile-wrapper{
+	margin: 20px auto;
+}
+
+.details-overview{
+	margin-top: 0;
+	
+	.image{
+		
+	}
+	
+	.upload-profile-pic{
+		text-align: center;
+	}
+}
+
+.main-details{
+	 .name{
+		font-size: 2em;
+	    font-family: 'roboto',sans-serif;
+	    font-weight: 500;
+	    margin-bottom: 0;
+	}
+	.current-work, .current-city, .age{
+		font-size: 1.2em;
+		margin: 2px auto;
+		color: #A8A8A8;
+	}
+	
+}
+
+.item{
+	margin: 12px;
+}
+
+.label-wrapper{
+	float: left;
+	padding:7px 0;
+}
+
+.row{
+	margin: 0;
+}
+.user-detail{
+	label{
+		padding: 20px;
+	}
+	input, .radio-options,p,.checkbox-wrapper{
+		width:72%;
+		float: right;
+	}
+	p{
+		margin: 9px auto;
+	}
+
+	textarea{
+		width:72%;
+		float: right;
+		padding: 10px;
+	}
+
+	.select-block{
+		.radio-wrapper{
+			margin-right: 20px;
+			float: left;
+		}
+		input{
+			width: auto;
+			margin-right: 10px;
+			float: none;
+		}
+	}
+
+	.checkbox-wrapper{
+		padding: 5px;
+		input{
+			width: auto;
+			margin: 4px 5px 4px 0px;
+			float: left;
+		}
+	}
+
+	.add-another{
+		width: 100%;
+	}
+
+	.delete-button{
+		margin-left: 5px;
+	}
+
+	.button-wrapper{
+		width:69.5%;
+		float: right;
+		margin: 20px auto;
+		button{
+			margin:0 10px;
+		}
+	}
+}
+
+.user-detail{
+	padding: 10px 20px;
+
+	h2{
+		font-size: 1.5em;
+		margin: 0;
+		color: #5f5f5f;
+	}
+
+	hr{
+		margin-top: 10px;
+	}
+}
+
+// education block
+
+.education-block, .work-block{
+	margin: 12px 0;	
+	.image{
+		padding-right: 0;
+	}
+	img{
+		height: 70px;
+		margin: 0 auto;
+	}
+	
+	.edu-detail{
+		border-left: 2px solid purple;
+		padding-left: 0;
+		margin: 13px auto;
+	}
+	.work-detail{
+		border-left: 2px solid purple;
+		padding-left: 0;
+		margin: 3px auto;
+	}
+
+	h3{
+		font-size: 1.2em;
+		margin:0;
+		font-weight: normal;
+	}
+
+	p{
+		margin: 0;
+		color: #A8A8A8;
+	}
+}
+
+// skills and endorsements
+
+
+.user-skill{
+	border-radius: 5px;
+    margin: 5px;
+    float: left;
+	span{
+	    color: #fff;
+	    padding: 8px 5px 9px 5px;
+	    background-color: #422673;
+	    float: left;
+	    font-size: .9em;
+	}
+	a{
+		float: left;
+	    padding: 7px 5px 7px 5px;
+	    background-color: #583399;
+    i{
+			color:#fff;
+		}
+	}
+}
+
+// projects
+
+.project-detail{
+	margin: 15px 0;
+	padding: 0;
+	border-left: 2px solid purple;
+	h3{
+		margin:0;
+		font-size: 1.3em;
+	}
+	.duration{
+		margin: 0;
+		color:#A8A8A8;
+	}
+	.details{
+		margin: 5px 0;
+	}
+}
+
+
+
+@import (less) "sidebar.less";
+@import (less) "footer.less";

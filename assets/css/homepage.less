@@ -1,0 +1,68 @@
+@import (less) "default-style.less";
+@import (less) "header.less";
+
+body .row{
+    margin-top: 120px;
+    margin: auto;
+}
+
+// for the sideing images
+.fullwidth-banner-wrapper{
+    margin: 30px auto;
+    .image-slider{
+        padding: 0;
+        img{
+            width: 100%;
+        }
+    }
+
+    .owl-prev,.owl-next{
+        position: absolute;
+        bottom: 5%;
+        z-index: 5;
+        i{
+            color:#E5E4E4;
+        }
+    }
+
+    .owl-prev{
+        left:5%;
+        
+    }
+
+    .owl-next{
+        right:5%;
+    }
+
+
+}
+// main buttons
+.main-buttons{
+    padding: 0 15px;
+    a{
+        margin-bottom: 10px;
+    }
+}
+
+// for about us section
+
+.about-us-wrapper{
+    margin: 20px auto;
+   
+}
+
+.about-us{
+    padding:0 0;
+    h2{
+        font-size: 1.7em;
+        font-weight: normal;
+        border-bottom: 1px solid #DADAD8;
+        font-family: 'Open-sans', sans-serif;
+    }
+    p, ul, ol{
+        font-size: 1.2em;
+    }
+}
+
+@import (less) "sidebar.less";
+@import (less) "footer.less";

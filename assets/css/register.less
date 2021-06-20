@@ -1,0 +1,105 @@
+@import (less) "default-style.less";
+@import (less) "header.less";
+
+.register-content{
+	h2{
+		font-size: 2.5em;
+		font-weight: normal;
+		margin-bottom: 0;
+	}
+
+	>p{
+		margin-bottom: 30px;
+		margin-top: 0;
+
+	}
+}
+
+.faster-signup{
+	margin: 30px auto;
+	float: none;
+	border:solid 1px #dddddd;
+	.login-button{
+		padding: 10px 5px;
+		color: #fff;
+		border-radius: 3px;
+		
+    	margin: 10px auto;
+
+    	@media screen and (min-width:1000px) {
+			width: 80%;
+			margin: 20px auto;
+			padding: 10px 5px;
+			font-size: 1.2em;
+		}
+	}
+	
+	.fa{
+		margin:0 10px;
+		padding-right: 10px;
+		border-right: 1px solid #e2e2e2;
+	}
+
+	.facebook{
+		background-color: #3b5998;
+	}
+
+	.linkedin{
+		background-color: #007bb5;
+	}
+
+	.small-hr{
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+	
+	.login-message{
+		font-size: 1em;
+		font-style: italic;
+	}
+}
+
+.greet-text{
+	span{
+		font-size: 1.4em;
+	}
+	font-size: 1.2em;
+	margin-top: 40px;
+}
+
+.registration-form{
+	float: none;
+	margin: 30px auto;
+	overflow: auto;
+
+	.item{
+		margin: 20px 0;
+	}
+	
+	.user-type-wrapper{
+		text-align: center;
+		input[type="radio"]{
+			margin-left: 20px;
+		}
+	}
+
+	label{
+		text-transform: uppercase;
+		font-size: .9em;
+	}
+
+	.submit-button{
+		button{
+			padding:12px 30px;
+		}
+	}
+
+}
+
+.g-recaptcha div div{
+	margin: 0 auto ;
+}
+
+@import (less) "footer.less";

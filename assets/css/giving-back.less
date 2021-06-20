@@ -1,0 +1,31 @@
+@import (less) "default-style.less";
+@import (less) "header.less";
+.body-wrapper{
+	overflow: inherit;
+}
+.payment-link{
+	font-size: 1.3em;
+}
+.item{
+	margin-top: 20px;
+}
+
+table{
+	@media (min-width: 900px) {
+		width:50%;
+	}
+	td{
+		border:none;
+		padding: 4px 14px !important;
+		cursor: default;
+	}
+	.td-label{
+		width:45%;
+		text-align: right;
+	}
+	.td-content{
+		text-align: left;
+		padding-left: 30px;
+	}
+}
+@import (less) "footer.less";
