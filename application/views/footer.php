@@ -78,7 +78,7 @@
 	    $.toast({
 	      text : $toast_msg,
 	      hideAfter : false,
-	      bgColor : '#D24242',              // Background color for toast
+	      bgColor : '#D24242',              // Background color
 	      textColor : '#eee',            // text color
 	    });
 	</script>
